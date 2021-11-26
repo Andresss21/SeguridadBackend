@@ -22,7 +22,14 @@ class SuscripcionesFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => 'Nombre de plan',
+            'subtitulo' => 'Subtitulo',
+            'precio' => 10,
+            'descripcion' => 'Descripcion de plan',
+            'beneficio1' => 'Primer beneficio desc', 
+            'beneficio2' => 'Segundo beneficio desc', 
+            'beneficio3' => 'Tercer beneficio desc', 
+            'created_at' => now(),
         ];
     }
 }

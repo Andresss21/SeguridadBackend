@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit1e1ef0be0d2d52e560852d285417c5db
+class ComposerStaticInitaaf1e3b00d3ff9a2e6cd6215492f240e
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -24,8 +24,8 @@ class ComposerStaticInit1e1ef0be0d2d52e560852d285417c5db
         '2c102faa651ef8ea5874edb585946bce' => __DIR__ . '/..' . '/swiftmailer/swiftmailer/lib/swift_required.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
         '538ca81a9a966a6716601ecf48f4eaef' => __DIR__ . '/..' . '/opis/closure/functions.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
@@ -789,15 +789,11 @@ class ComposerStaticInit1e1ef0be0d2d52e560852d285417c5db
         'DASPRiD\\Enum\\Exception\\UnserializeNotSupportedException' => __DIR__ . '/..' . '/dasprid/enum/src/Exception/UnserializeNotSupportedException.php',
         'DASPRiD\\Enum\\NullValue' => __DIR__ . '/..' . '/dasprid/enum/src/NullValue.php',
         'Database\\Factories\\ClinicasFactory' => __DIR__ . '/../..' . '/database/factories/ClinicasFactory.php',
-        'Database\\Factories\\ComercioFactory' => __DIR__ . '/../..' . '/database/factories/ComercioFactory.php',
-        'Database\\Factories\\DoctoresFactory' => __DIR__ . '/../..' . '/database/factories/DoctoresFactory.php',
         'Database\\Factories\\SucursalesFactory' => __DIR__ . '/../..' . '/database/factories/SucursalesFactory.php',
         'Database\\Factories\\SuscripcionesFactory' => __DIR__ . '/../..' . '/database/factories/SuscripcionesFactory.php',
         'Database\\Factories\\UserFactory' => __DIR__ . '/../..' . '/database/factories/UserFactory.php',
         'Database\\Seeders\\ClinicasSeeder' => __DIR__ . '/../..' . '/database/seeders/ClinicasSeeder.php',
-        'Database\\Seeders\\ComercioSeeder' => __DIR__ . '/../..' . '/database/seeders/ComercioSeeder.php',
         'Database\\Seeders\\DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeders/DatabaseSeeder.php',
-        'Database\\Seeders\\DoctoresSeeder' => __DIR__ . '/../..' . '/database/seeders/DoctoresSeeder.php',
         'Database\\Seeders\\SucursalesSeeder' => __DIR__ . '/../..' . '/database/seeders/SucursalesSeeder.php',
         'Database\\Seeders\\SuscripcionesSeeder' => __DIR__ . '/../..' . '/database/seeders/SuscripcionesSeeder.php',
         'DeepCopy\\DeepCopy' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/DeepCopy.php',
@@ -5528,10 +5524,10 @@ class ComposerStaticInit1e1ef0be0d2d52e560852d285417c5db
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit1e1ef0be0d2d52e560852d285417c5db::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit1e1ef0be0d2d52e560852d285417c5db::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit1e1ef0be0d2d52e560852d285417c5db::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit1e1ef0be0d2d52e560852d285417c5db::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitaaf1e3b00d3ff9a2e6cd6215492f240e::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitaaf1e3b00d3ff9a2e6cd6215492f240e::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitaaf1e3b00d3ff9a2e6cd6215492f240e::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitaaf1e3b00d3ff9a2e6cd6215492f240e::$classMap;
 
         }, null, ClassLoader::class);
     }

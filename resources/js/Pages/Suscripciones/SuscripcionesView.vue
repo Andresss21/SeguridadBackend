@@ -49,12 +49,7 @@
                         @click="selectedSuscripcion(suscripcion)"
                         >Editar</a
                       >
-                      <a
-                        type="button"
-                        class="btn btn-danger"
-                        @click="selectedSuscripcion(suscripcion); confirmDelete();"
-                        >Eliminar</a
-                      >
+                      
                     </td>
                   </tr>
                 </tbody>
@@ -350,21 +345,7 @@ export default {
       this.slcSuscripcion = JSON.parse(notReactive);
     },
 
-    confirmDelete: function(){
-      Toast.fire({
-        icon: 'warning',
-        text: 'Esta seguro que desea eliminar el registro?',
-        showCancelButton: true,
-        confirmButtonText: 'Eliminar',
-        confirmButtonColor: '#e3342f',
-        cancelButtonText: 'Cancelar'
-      }).then((result)=> {
-          if (result.isConfirmed) {
-            this.deleteSuscripcion();
-            this.getSuscripciones();
-          }
-      });
-    }
+    
   },
   created() {
     this.getSuscripciones();
